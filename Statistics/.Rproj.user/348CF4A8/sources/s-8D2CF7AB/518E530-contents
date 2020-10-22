@@ -1,2 +1,33 @@
 # Statistics Project
-# This is the first independent R project
+
+# Read in the data set
+workers <- read.csv("Workers.csv")
+
+# Command to view data set in the new tab
+View(workers)
+
+# Structure of the data set
+str(workers)
+
+# The workers data set consists of 500 obs of 6 variables.
+# And all variables are of type "int".
+
+# Some changes to the variables:
+
+# Variable "GEN" consists of 2 values that is 1 or 2, which makes them categorical.
+# Hence, attaching labels "Male" for 1 and "Female" for 2 and making them as factors.
+workers$GEN <- factor(workers$GEN,
+                      levels = c(1,2),
+                      labels = c("Male", "Female"))
+
+# Simialrly "JOB" consists of 3 values that is 1/2/3 which makes them categorical as well.
+# Hence, attaching labels 1 = Public, 2 = Private and 3 = Self-Employed
+workers$JOB <- factor(workers$JOB,
+                      levels = c(1,2,3),
+                      labels = c("Public", "Private", "Self-Employed"))
+
+str(workers)
+# Hence, now we see that the two variables ("GEN" and "JOB") are made categorical.
+
+
+

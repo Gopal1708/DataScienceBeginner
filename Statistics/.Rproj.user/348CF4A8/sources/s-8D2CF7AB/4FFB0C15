@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1603377925786.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4FFB0C15",
+    "lastKnownWriteTime" : 64,
+    "last_content_update" : 1603377925786,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "7418BA2B",
+        "caption" : "workers",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=workers&cache_key=7418BA2B",
+        "displayedObservations" : 500,
+        "environment" : "",
+        "expression" : "workers",
+        "object" : "workers",
+        "preview" : 0,
+        "totalObservations" : 500,
+        "variables" : 6
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
